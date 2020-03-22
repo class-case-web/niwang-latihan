@@ -31,3 +31,7 @@ Route::get('/author/{id}', function ($id) {
     
 //    return $data1;
 });
+
+//Route::get('/contoh', 'ContohController@Index');
+Route::get('/contoh/update/{id}', 'ContohController@Update');
+Route::get('/contoh', 'ContohController@Index');
